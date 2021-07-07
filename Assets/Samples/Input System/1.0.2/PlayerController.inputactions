@@ -1,0 +1,71 @@
+{
+    "name": "PlayerController",
+    "maps": [
+        {
+            "name": "PlayerContol",
+            "id": "2f18abd6-baac-4fc4-a168-2626e9ab32d8",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "d14c9742-8264-4032-8900-a46af9131991",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "58ac7cec-2315-40f4-a88b-5729cb7c0c24",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlayerController1",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "615dfc08-9337-4202-83f1-ee5ad55e52a3",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlayerController",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PlayerController",
+            "bindingGroup": "PlayerController",
+            "devices": [
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "PlayerController",
+            "bindingGroup": "PlayerController",
+            "devices": []
+        }
+    ]
+}
