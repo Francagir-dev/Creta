@@ -18,6 +18,7 @@ public class Constants
     public const string BgVolumePref = "backgroundVolume";
     public const string VFXVolumePref = "vfxVolume";
     public const string MasterVolumePref = "masterVolume";
+    public const string UIVolume = "uiVolume";
 
     //GRAPHICS
     public const string WidthGraphicsPref = "width";
