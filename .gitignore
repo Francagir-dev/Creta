@@ -58,4 +58,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+<<<<<<< HEAD
+
+Library/ArtifactDB
+=======
 Library/CurrentLayout-default.dwlt
+>>>>>>> parent of 75e0f53 (Backup)
